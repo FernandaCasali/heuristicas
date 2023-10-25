@@ -51,42 +51,42 @@
           color: 'light-green-lighten-1'
         },
         { 
-          num: 2,
+          icon: 2,
           text: 'Moderate Importance',
           color: 'light-green-darken-2'
         },
         { 
-          num: 3,
+          icon: 3,
           text: 'Strong Importance',
           color: 'yellow-lighten-1'
         },
         { 
-          num: 4,
+          icon: 4,
           text: 'Very Strong Importance',
           color: 'red-darken-1'
         },
         { 
-          num: 5,
+          icon: 5,
           text: 'Extreme Importance',
           color: 'red-darken-4'
         },
         { 
-          num: 6,
+          icon: 6,
           text: 'Moderately Less Important',
           color: 'red-darken-1'
         },
         { 
-          num: 7,
+          icon: 7,
           text: 'Strongly Less Important',
           color: 'yellow-lighten-1'
         },
         { 
-          num: 8,
+          icon: 8,
           text: 'Very Strongly Less Important',
           color: 'light-green-darken-2'
         },
         { 
-          num: 9,
+          icon: 9,
           text: 'Extremely Less Important',
           color: 'light-green-lighten-1'
         }

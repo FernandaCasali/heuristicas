@@ -7,6 +7,7 @@ import Tabela from './components/Tabela.vue';
 
 
 <template>
+
   <v-card
     class=" mx-auto bg-secondary rounded-lg mt-10 "
     :class="`elevation-${14}`"
@@ -19,6 +20,7 @@ import Tabela from './components/Tabela.vue';
       <v-spacer></v-spacer>
 
     </v-toolbar>
+
 
     <v-list lines="two">
 
@@ -33,6 +35,7 @@ import Tabela from './components/Tabela.vue';
             <span class="text-h5">{{ folder.value }}</span>
           </v-avatar>
         </template>
+
 
         <template v-slot:append>
           <v-btn  variant="text">
@@ -76,11 +79,16 @@ import Tabela from './components/Tabela.vue';
                   </v-card-actions>
                 </v-card>
               </template>
+
             </v-dialog>
+
           </v-btn>
+
         </template>
+
       </v-list-item>
     </v-list>
+
   </v-card>
 
   
@@ -132,6 +140,7 @@ import Tabela from './components/Tabela.vue';
         },
       ],
     }),
+
     methods: {
       submit(){
         onUpdated.this.value= this.answer
@@ -140,6 +149,8 @@ import Tabela from './components/Tabela.vue';
 
   }
 </script>
+
+
 
 <style>
   
