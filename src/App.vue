@@ -1,8 +1,5 @@
 <script setup>
 import { onUpdated, ref } from 'vue';
-import OrdemPesos from './components/OrdemPesos.vue';
-import Teste from './components/Teste.vue';
-import Tabela from './components/Tabela.vue';
 </script>
 
 
@@ -58,7 +55,7 @@ import Tabela from './components/Tabela.vue';
                     </v-text-field>
                   </v-card-text>
                   
-                  <!-- <OrdemPesos></OrdemPesos> -->
+
 
                   <v-card-actions>
                     <v-spacer></v-spacer>
@@ -92,10 +89,6 @@ import Tabela from './components/Tabela.vue';
   </v-card>
 
   
-  <!-- <Teste></Teste>
-
-  <Tabela></Tabela> -->
-
   
 
 </template>
