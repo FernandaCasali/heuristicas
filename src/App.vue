@@ -91,12 +91,6 @@ import Tabela from './components/Tabela.vue';
 
   </v-card>
 
-  
-  <!-- <Teste></Teste>
-
-  <Tabela></Tabela> -->
-
-  
 
 </template>
 
@@ -109,7 +103,7 @@ import Tabela from './components/Tabela.vue';
         {
           subtitle: 'Heurística 1',
           title: 'Heurística 1',
-          value: '0',
+          value: 0,
         },
         {
           subtitle: 'Heurística 2',
